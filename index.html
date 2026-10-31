@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sai Sangeeth V. — Junior System Engineer focused on cybersecurity, network security, SIEM operations and IT infrastructure.">
+  <meta name="keywords" content="Sai Sangeeth, System Administrator, Linux Administrator, IT Infrastructure, FortiGate, Wazuh, Zabbix, Windows Server">
+  <meta name="author" content="Sai Sangeeth V.">
+  <meta name="theme-color" content="#080d18">
+  <title>Sai Sangeeth V. | Cybersecurity & Network Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <style>
+ :root{--bg:#080d18;--bg2:#0b1322;--panel:#0e192a;--panel2:#111f33;--line:rgba(157,183,218,.13);--text:#edf4ff;--muted:#9aaac1;--blue:#4d9fff;--cyan:#54e2e8;--mono:"DM Mono",monospace;--sans:"Manrope",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.75;overflow-x:hidden}::selection{background:#2467a8;color:white}.ambient{position:absolute;width:520px;height:520px;border-radius:50%;filter:blur(120px);opacity:.13;pointer-events:none;z-index:-1}.ambient-one{background:#1468c7;top:120px;left:-260px}.ambient-two{background:#00b8c4;top:950px;right:-300px}.navbar{background:rgba(8,13,24,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(157,183,218,.1);padding:15px 0}.navbar-brand{display:flex;align-items:center;gap:10px;color:var(--text);font-size:12px;letter-spacing:1.6px;font-weight:800}.navbar-brand:hover{color:white}.brand-mark{width:31px;height:31px;border:1px solid rgba(84,226,232,.55);border-radius:9px;display:grid;place-items:center;color:var(--cyan);font:500 11px var(--mono);letter-spacing:0}.brand-dot{color:var(--cyan)}.nav-link{color:#aab8cb!important;font-size:12px;font-weight:700;padding:9px 11px!important}.nav-link:hover,.nav-link.active{color:white!important}.btn-nav{font-size:12px;color:white;border:1px solid rgba(84,226,232,.35);border-radius:7px;padding:9px 15px}.btn-nav:hover{background:rgba(84,226,232,.1);color:white}.navbar-toggler{border-color:var(--line)}.navbar-toggler-icon{filter:invert(1)}.section-pad{padding:112px 0}.section-border{border-top:1px solid var(--line)}.hero-section{min-height:760px;padding:170px 0 70px;position:relative}.eyebrow,.section-index,.tag-label,.project-type,.project-number,.command-label{font:500 10px var(--mono);letter-spacing:1.7px;color:var(--cyan)}.eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:28px}.pulse-dot,.status-dot{width:7px;height:7px;border-radius:50%;background:#5ee7a8;box-shadow:0 0 13px #5ee7a8}.hero-kicker{color:var(--muted);font-size:16px;margin:0 0 2px}.hero-section h1{font-size:clamp(48px,7vw,82px);font-weight:800;letter-spacing:-4px;line-height:1.08;margin:0 0 16px}.gradient-text{background:linear-gradient(100deg,#61aaff 10%,#54e2e8 90%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-role{font-size:clamp(21px,3vw,31px);font-weight:700;letter-spacing:-.9px;line-height:1.45;margin-bottom:20px}.role-divider{color:#40516a;font-weight:400}.hero-copy{max-width:590px;color:var(--muted);font-size:15px;line-height:1.9}.hero-actions{margin-top:30px}.btn-primary-glow,.btn-outline-glow{padding:12px 19px;border-radius:7px;font-size:12px;font-weight:800;letter-spacing:.2px}.btn-primary-glow{color:#04121d;background:linear-gradient(105deg,#62aaff,#54e2e8);border:0;box-shadow:0 7px 28px rgba(44,160,220,.15)}.btn-primary-glow:hover{color:#04121d;filter:brightness(1.08);transform:translateY(-1px)}.btn-outline-glow{color:#eaf4ff;border:1px solid rgba(154,184,220,.28)}.btn-outline-glow:hover{color:white;border-color:var(--cyan);background:rgba(84,226,232,.06)}.hero-meta{display:flex;flex-wrap:wrap;gap:23px;margin-top:35px;color:#8293aa;font:10px var(--mono)}.hero-meta i{color:var(--cyan);margin-right:5px}.terminal-card{position:relative;background:linear-gradient(145deg,#101e32,#091321);border:1px solid rgba(100,165,221,.24);border-radius:13px;box-shadow:0 25px 80px rgba(0,0,0,.35);overflow:hidden;transform:perspective(900px) rotateY(-5deg) rotateX(2deg)}.terminal-top,.terminal-footer{height:43px;display:flex;align-items:center;justify-content:space-between;padding:0 17px;background:rgba(255,255,255,.025);border-bottom:1px solid var(--line);font:10px var(--mono);color:#7388a4}.terminal-dots{display:flex;gap:5px}.terminal-dots i,.visual-bar i{width:7px;height:7px;border-radius:50%;background:#fa7777}.terminal-dots i:nth-child(2),.visual-bar i:nth-child(2){background:#f6c66a}.terminal-dots i:nth-child(3),.visual-bar i:nth-child(3){background:#62d69b}.terminal-body{padding:30px 25px 25px;font:11px/2.4 var(--mono);min-height:280px}.terminal-line{color:#dceaff}.prompt{color:#5de3c1}.path{color:#68aaff}.terminal-output{color:#9aaec8;padding-left:12px;margin-bottom:12px}.tags-output{display:flex;flex-wrap:wrap;gap:7px}.tags-output span,.tech-stack span{border:1px solid rgba(84,226,232,.2);background:rgba(84,226,232,.055);border-radius:4px;color:#9feaf0;padding:2px 8px;font-size:9px}.service-status{color:#5ee7a8;padding-left:12px;margin:5px 0 12px}.terminal-footer{border-top:1px solid var(--line);border-bottom:0;height:39px;font-size:9px}.terminal-footer i{color:var(--cyan)}.cursor{display:inline-block;width:6px;height:13px;background:var(--cyan);vertical-align:middle;animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}.floating-chip{position:absolute;background:#12233a;border:1px solid rgba(84,226,232,.22);box-shadow:0 10px 35px #030914;padding:9px 13px;border-radius:7px;font-size:10px;color:#c5d5e9}.floating-chip i{color:var(--cyan);margin-right:6px}.chip-one{top:24px;right:-16px}.chip-two{bottom:30px;left:-28px}.scroll-cue{margin-top:75px;display:flex;align-items:center;gap:12px;color:#5c6f88;font:9px var(--mono);letter-spacing:1.5px}.scroll-cue span{height:28px;width:1px;background:linear-gradient(var(--cyan),transparent)}.section-heading{margin-bottom:46px}.section-index{display:block;margin-bottom:16px}.section-heading h2,.contact-panel h2{font-size:clamp(32px,4.2vw,49px);font-weight:800;line-height:1.2;letter-spacing:-2px;margin:0}.section-subtitle{color:var(--muted);max-width:650px;margin:17px 0 0;font-size:13px}.lead-copy{font-size:20px;font-weight:700;line-height:1.65;max-width:650px}.body-copy{color:var(--muted);font-size:13px;line-height:1.95}.about-panel,.learning-panel{background:linear-gradient(145deg,rgba(17,31,51,.9),rgba(10,19,32,.9));border:1px solid var(--line);border-radius:10px;padding:25px 27px}.about-row{padding:13px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:3px}.about-row:last-child{border:0}.about-row span{font:9px var(--mono);letter-spacing:1.3px;color:var(--cyan)}.about-row strong{font-size:12px}.about-row small{color:var(--muted);font-size:11px}.skill-card,.knowledge-card,.mini-project{height:100%;background:linear-gradient(145deg,rgba(17,31,51,.8),rgba(10,18,31,.9));border:1px solid var(--line);border-radius:9px;padding:24px;transition:.25s ease}.skill-card:hover,.mini-project:hover,.knowledge-card:hover{transform:translateY(-4px);border-color:rgba(84,226,232,.4);background:#101f33}.skill-icon,.mini-project-icon{width:39px;height:39px;border-radius:8px;display:grid;place-items:center;color:var(--cyan);background:rgba(84,226,232,.08);border:1px solid rgba(84,226,232,.16);font-size:18px;margin-bottom:18px}.skill-card h3,.knowledge-card h3,.mini-project h3{font-size:14px;font-weight:800;margin-bottom:9px}.skill-card p,.knowledge-card p,.mini-project p{font-size:11px;color:var(--muted);line-height:1.9;margin:0}.micro-note{color:#74869e;font-size:10px;margin:19px 0 0}.micro-note i{color:var(--cyan);margin-right:5px}.experience-layout{display:grid;grid-template-columns:22px 1fr;gap:24px}.experience-marker{position:relative;display:flex;justify-content:center}.marker-line{width:1px;background:linear-gradient(var(--cyan),rgba(84,226,232,.04));height:100%}.marker-dot{position:absolute;top:9px;width:11px;height:11px;background:var(--cyan);border-radius:50%;box-shadow:0 0 0 6px rgba(84,226,232,.1)}.experience-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:19px}.experience-head h3{font-size:20px;font-weight:800;margin:7px 0 3px}.experience-head p{font-size:12px;color:var(--muted);margin:0}.experience-head p span{color:var(--cyan);padding:0 5px}.experience-type{font:9px var(--mono);color:var(--cyan);border:1px solid rgba(84,226,232,.2);border-radius:4px;padding:6px 9px}.responsibility{display:flex;gap:13px;padding:14px;background:rgba(255,255,255,.018);border:1px solid rgba(157,183,218,.08);border-radius:7px;height:100%}.responsibility>i{font-size:17px;color:var(--cyan);margin-top:1px}.responsibility h4{font-size:12px;font-weight:800;margin:0 0 5px}.responsibility p{font-size:10px;color:var(--muted);line-height:1.8;margin:0}.experience-callout{display:flex;gap:12px;align-items:center;padding:14px 16px;margin-top:23px;border-left:2px solid var(--cyan);background:rgba(84,226,232,.045);color:#a9bad0;font-size:11px}.experience-callout i{color:var(--cyan);font-size:16px}.project-group-title{display:flex;align-items:center;gap:13px;margin-bottom:18px}.project-group-title>span{font:10px var(--mono);color:var(--cyan)}.project-group-title h3{font-size:13px;font-weight:800;margin:0;white-space:nowrap}.project-group-title div{height:1px;background:var(--line);flex:1}.project-card{padding:30px;border:1px solid rgba(84,226,232,.18);border-radius:10px;background:linear-gradient(130deg,#102038,#0b1525)}.project-topline{display:flex;justify-content:space-between;margin-bottom:24px}.project-number{color:#637994}.project-card h3{font-size:30px;font-weight:800;letter-spacing:-1px;margin-bottom:10px}.project-summary{font-size:13px;color:var(--muted);max-width:640px}.project-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0}.project-detail-grid b{font:10px var(--mono);color:var(--cyan);text-transform:uppercase;letter-spacing:1px}.project-detail-grid p{font-size:10px;color:var(--muted);line-height:1.8;margin:5px 0 0}.tech-stack{display:flex;flex-wrap:wrap;gap:6px;margin-top:17px}.project-visual{background:#08111f;border:1px solid rgba(84,226,232,.17);border-radius:9px;padding:15px;transform:rotate(1deg)}.visual-window{border:1px solid #233751;border-radius:5px;overflow:hidden}.visual-bar{height:25px;background:#111f32;display:flex;align-items:center;gap:4px;padding:0 8px}.visual-bar i{width:5px;height:5px}.visual-bar span{font:7px var(--mono);color:#7288a3;margin-left:8px}.visual-content{display:flex;height:180px}.visual-sidebar{width:34px;background:#0e1b2d;border-right:1px solid #20344d;display:flex;align-items:center;flex-direction:column;gap:14px;padding-top:12px}.visual-sidebar b{font:8px var(--mono);color:var(--cyan)}.visual-sidebar i{width:12px;height:4px;background:#30465f;border-radius:3px}.visual-main{padding:17px;flex:1}.visual-title{height:8px;width:45%;background:#a9bfd9;border-radius:3px;opacity:.65}.visual-cards{display:flex;gap:7px;margin:17px 0}.visual-cards i{height:38px;flex:1;background:linear-gradient(140deg,#183e5a,#12243a);border:1px solid #254660;border-radius:3px}.visual-table{display:grid;gap:7px}.visual-table i{height:5px;background:#263b54;border-radius:4px}.visual-table i:nth-child(2n){width:80%}.visual-caption{text-align:center;display:block;font:8px var(--mono);color:#637995;letter-spacing:1px;margin-top:13px}.mini-project{padding:23px}.mini-project-icon{margin-bottom:15px}.mini-project .project-type{font-size:8px}.mini-project h3{font-size:15px;margin:9px 0}.mini-project p{min-height:90px}.mini-project small{display:block;margin-top:16px;color:#72869f;font-size:9px}.panel-heading{display:flex;align-items:center;gap:12px;margin-bottom:18px}.panel-heading i{font-size:19px;color:var(--cyan)}.panel-heading h3{font-size:15px;font-weight:800;margin:0}.credential-placeholder{display:flex;gap:10px;padding:13px;border:1px dashed rgba(84,226,232,.25);border-radius:6px;color:#8fa4bd;font-size:10px}.credential-placeholder i{color:var(--cyan)}.learning-list{padding:0;margin:0;list-style:none}.learning-list li{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:11px;color:#b5c4d8}.learning-list li:last-child{border:0}.learning-list i{color:var(--cyan)}.knowledge-card{padding:21px}.knowledge-card>i{font-size:20px;color:var(--cyan);margin-bottom:16px;display:block}.knowledge-card h3{font-size:12px}.knowledge-card p{font-size:10px}.command-strip{margin-top:27px;padding:16px 19px;border:1px solid var(--line);border-radius:7px;display:flex;justify-content:space-between;align-items:center;gap:12px;background:#0b1524}.command-label{font-size:9px}.command-strip code{font:11px var(--mono);color:#c4d8ef}.command-strip code b{color:var(--cyan);padding:0 7px}.contact-panel{padding:48px;border:1px solid rgba(84,226,232,.18);border-radius:12px;background:radial-gradient(ellipse at top right,rgba(32,111,157,.13),transparent 48%),linear-gradient(145deg,#101e32,#0a1423)}.contact-panel h2{margin:14px 0 18px}.contact-links{margin-top:30px}.contact-links a{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);color:#dce8f7;text-decoration:none;font-size:11px}.contact-links a>i:first-child{font-size:17px;color:var(--cyan)}.contact-links a span{display:flex;flex-direction:column}.contact-links small{font:8px var(--mono);letter-spacing:1.2px;color:#7c91ab}.contact-links a:hover{color:var(--cyan)}.contact-form{background:rgba(5,12,22,.45);border:1px solid var(--line);border-radius:8px;padding:25px}.form-top{display:flex;justify-content:space-between;color:var(--cyan);font:10px var(--mono);letter-spacing:1.5px;margin-bottom:20px}.contact-form label{display:block;color:#b4c4d8;font-size:10px;margin:12px 0 5px}.contact-form input,.contact-form textarea{width:100%;background:#0a1524;border:1px solid #263850;border-radius:5px;color:white;padding:11px 12px;font:11px var(--sans);outline:none}.contact-form input:focus,.contact-form textarea:focus{border-color:var(--cyan)}.contact-form textarea{resize:vertical}.contact-form button{margin-top:17px}.form-note{font-size:9px;color:#73869e;margin:12px 0 0;text-align:center}.site-footer{padding:32px 0 18px;border-top:1px solid var(--line)}.site-footer p{font-size:10px;color:#74869e;margin:0}.back-top{font:9px var(--mono);letter-spacing:1px;color:#9bb0c9;text-decoration:none}.back-top:hover{color:var(--cyan)}.copyright{border-top:1px solid var(--line);padding-top:15px;margin-top:23px;color:#5e7189;font:9px var(--mono)}@media(max-width:991px){.navbar-collapse{padding:15px 0}.nav-link{padding:8px 0!important}.hero-section{padding-top:145px}.terminal-card{max-width:560px;margin:0 auto}.section-pad{padding:85px 0}.scroll-cue{margin-top:50px}}@media(max-width:575px){.hero-section h1{letter-spacing:-2.8px}.hero-section{min-height:auto}.hero-meta{gap:12px;flex-direction:column}.terminal-body{padding:22px 17px}.floating-chip{font-size:9px}.chip-one{right:-5px}.chip-two{left:-8px}.section-heading h2,.contact-panel h2{letter-spacing:-1.2px}.experience-layout{gap:13px;grid-template-columns:14px 1fr}.experience-head{flex-direction:column}.project-card{padding:20px}.project-detail-grid{grid-template-columns:1fr;gap:10px}.project-visual{margin-top:8px}.mini-project p{min-height:0}.contact-panel{padding:25px 18px}.command-strip{align-items:flex-start;flex-direction:column}.site-footer .container:first-child{align-items:flex-start!important}.copyright{font-size:8px}}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .55s ease}.reveal.is-visible{opacity:1;transform:translateY(0)}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+
+
+/* RESTORED BLUE/CYAN CYBERSECURITY THEME + ENHANCED 3D LAYERS */
+:root{--bg:#050a12;--bg2:#071321;--panel:#0a1b2c;--panel2:#0d2438;--line:rgba(0,220,190,.16);--text:#e9fbff;--muted:#8aa8b8;--blue:#00aaff;--cyan:#00f0c8}
+body{
+ background:radial-gradient(ellipse at 75% 12%,rgba(0,115,150,.16),transparent 38%),radial-gradient(ellipse at 5% 48%,rgba(0,90,120,.12),transparent 35%),#050a12;
+}
+.navbar{background:rgba(3,9,16,.86);border-bottom-color:rgba(0,240,200,.16)}
+.brand-mark{border-color:rgba(0,240,200,.7);box-shadow:0 0 16px rgba(0,240,200,.12)}
+.gradient-text{background:linear-gradient(100deg,#00f0c8 0%,#00aaff 55%,#9b7bff 100%);-webkit-background-clip:text;background-clip:text}
+.eyebrow,.section-index,.tag-label,.project-type,.project-number,.command-label{color:#00f0c8}
+.btn-primary-glow{background:linear-gradient(105deg,#00f0c8,#00aaff);box-shadow:0 0 28px rgba(0,240,200,.18)}
+.btn-outline-glow:hover,.btn-nav:hover{border-color:#00f0c8;background:rgba(0,240,200,.08)}
+.terminal-card,.about-panel,.learning-panel,.skill-card,.knowledge-card,.mini-project,.project-card,.contact-panel{
+ border-color:rgba(0,240,200,.18);box-shadow:0 14px 50px rgba(0,0,0,.22)
+}
+.terminal-card{background:linear-gradient(145deg,rgba(7,30,46,.96),rgba(4,13,25,.98))}
+.tags-output span,.tech-stack span{border-color:rgba(0,240,200,.25);background:rgba(0,240,200,.06);color:#8fffea}
+.skill-card:hover,.mini-project:hover,.knowledge-card:hover{border-color:rgba(0,240,200,.55);box-shadow:0 12px 36px rgba(0,200,190,.08)}
+.project-card{background:linear-gradient(130deg,#09263a,#071321)}
+.contact-panel{background:radial-gradient(ellipse at top right,rgba(0,190,190,.16),transparent 48%),linear-gradient(145deg,#0a2031,#06111e)}
+.contact-form input,.contact-form textarea{background:#061321;border-color:#174055}
+.command-strip{background:#071522;border-color:rgba(0,240,200,.16)}
+.hero-section{isolation:isolate;overflow:hidden;background:linear-gradient(180deg,rgba(2,12,20,.22),rgba(2,10,18,.02))}
+#networkCanvas{position:absolute;inset:0;width:100%;height:100%;z-index:-1;opacity:.62;pointer-events:none}
+
+/* Layered 3D hero scene */
+.hero-visual-column{position:relative;perspective:1200px;transform-style:preserve-3d}
+.security-orb{height:300px;max-width:440px;margin:-20px auto 8px;position:relative;display:grid;place-items:center;perspective:1000px;transform-style:preserve-3d}
+.security-orb:before,.security-orb:after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.security-orb:before{width:280px;height:280px;border:1px solid rgba(0,240,200,.10);box-shadow:0 0 55px rgba(0,170,255,.08),inset 0 0 45px rgba(0,240,200,.05);transform:rotateX(70deg) translateZ(-35px)}
+.security-orb:after{width:320px;height:320px;border:1px dashed rgba(0,170,255,.14);transform:rotateY(68deg) rotateX(20deg);animation:outerOrbit 32s linear infinite}
+.orb-glow{position:absolute;width:205px;height:205px;border-radius:50%;background:rgba(0,225,200,.16);filter:blur(45px);animation:orbPulse 4s ease-in-out infinite}
+.orb-core{position:absolute;width:112px;height:112px;border:1px solid rgba(0,255,218,.75);border-radius:30px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;color:#00f0c8;background:linear-gradient(145deg,rgba(8,43,58,.98),rgba(3,13,25,.98));box-shadow:0 18px 35px rgba(0,0,0,.35),0 0 32px rgba(0,240,200,.24),inset 0 0 22px rgba(0,240,200,.12);transform:translateZ(55px) rotateX(8deg) rotateY(-10deg);z-index:3;animation:coreFloat 5s ease-in-out infinite}
+.orb-core i{font-size:38px;text-shadow:0 0 18px rgba(0,240,200,.7)}
+.orb-core span,.orb-label{font:8px var(--mono);letter-spacing:1.7px}
+.orb-ring{position:absolute;border:1px solid rgba(0,220,210,.52);border-radius:50%;transform-style:preserve-3d;box-shadow:0 0 15px rgba(0,220,210,.08)}
+.ring-a{width:205px;height:205px;transform:rotateX(68deg) rotateZ(15deg);animation:spinA 13s linear infinite}
+.ring-b{width:245px;height:155px;transform:rotateY(64deg) rotateZ(-25deg);border-color:rgba(0,160,255,.62);animation:spinB 16s linear infinite}
+.ring-c{width:275px;height:220px;transform:rotateX(72deg) rotateY(38deg);border-style:dashed;border-color:rgba(155,123,255,.52);animation:spinC 22s linear infinite}
+.orb-node{position:absolute;width:10px;height:10px;border-radius:50%;background:#00f0c8;box-shadow:0 0 18px #00f0c8;z-index:4}
+.node-a{top:36px;left:calc(50% + 93px)}.node-b{bottom:34px;left:calc(50% - 118px);background:#00aaff;box-shadow:0 0 18px #00aaff}.node-c{top:50%;right:calc(50% - 145px);background:#9b7bff;box-shadow:0 0 18px #9b7bff}
+.orb-label{position:absolute;color:#8ab6c5;opacity:.9}.label-a{top:12px;left:10%}.label-b{bottom:17px;right:10%}.label-c{top:48%;left:0}
+.floating-chip{background:rgba(5,25,39,.94);border:1px solid rgba(0,240,200,.32);backdrop-filter:blur(8px);box-shadow:0 12px 28px rgba(0,0,0,.3);transform:translateZ(45px)}
+/* Floating 3D data cubes */
+.cyber-cube{position:absolute;width:38px;height:38px;transform-style:preserve-3d;animation:cubeSpin 12s linear infinite;opacity:.8;pointer-events:none}
+.cyber-cube span{position:absolute;inset:0;border:1px solid rgba(0,240,200,.7);background:rgba(0,170,255,.07);box-shadow:inset 0 0 18px rgba(0,240,200,.08),0 0 15px rgba(0,170,255,.08)}
+.cyber-cube span:nth-child(1){transform:translateZ(19px)}
+.cyber-cube span:nth-child(2){transform:rotateY(180deg) translateZ(19px)}
+.cyber-cube span:nth-child(3){transform:rotateY(90deg) translateZ(19px)}
+.cyber-cube span:nth-child(4){transform:rotateY(-90deg) translateZ(19px)}
+.cyber-cube span:nth-child(5){transform:rotateX(90deg) translateZ(19px)}
+.cyber-cube span:nth-child(6){transform:rotateX(-90deg) translateZ(19px)}
+.cube-one{top:35px;right:8%;transform:scale(.8);animation-delay:-2s}
+.cube-two{bottom:24px;left:8%;transform:scale(.55);animation-delay:-7s}
+.cube-three{top:48%;right:2%;transform:scale(.42);animation-delay:-4s}
+/* Add depth to cards and panels */
+.skill-card,.knowledge-card,.mini-project,.project-card,.about-panel,.learning-panel,.contact-panel{transform-style:preserve-3d;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}
+.skill-card:hover,.knowledge-card:hover,.mini-project:hover,.project-card:hover{transform:perspective(900px) rotateX(2deg) rotateY(-2deg) translateY(-6px)}
+.terminal-card{transform:perspective(1100px) rotateY(-6deg) rotateX(3deg);transition:transform .5s ease,box-shadow .5s ease}
+.terminal-card:hover{transform:perspective(1100px) rotateY(-1deg) rotateX(1deg) translateY(-5px);box-shadow:0 25px 80px rgba(0,190,180,.12)}
+@keyframes spinA{to{transform:rotateX(68deg) rotateZ(375deg)}}
+@keyframes spinB{to{transform:rotateY(64deg) rotateZ(335deg)}}
+@keyframes spinC{to{transform:rotateX(72deg) rotateY(398deg)}}
+@keyframes outerOrbit{to{transform:rotateY(428deg) rotateX(20deg)}}
+@keyframes orbPulse{50%{opacity:.55;transform:scale(1.2)}}
+@keyframes coreFloat{0%,100%{translate:0 0;transform:translateZ(55px) rotateX(8deg) rotateY(-10deg)}50%{translate:0 -10px;transform:translateZ(72px) rotateX(2deg) rotateY(8deg)}}
+@keyframes cubeSpin{0%{rotateX:0deg;rotateY:0deg;rotateZ:0deg}100%{rotateX:360deg;rotateY:270deg;rotateZ:180deg}}
+@media(max-width:991px){.security-orb{height:270px;margin:0 auto 8px}.terminal-card{transform:none}}
+@media(max-width:575px){.security-orb{height:235px;transform:scale(.9);margin:-8px auto -2px}.cyber-cube{opacity:.45}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+
+/* Click-to-view credential cards and certificate preview */
+.credential-button{width:100%;text-align:left;display:flex;align-items:center;gap:14px;color:inherit;background:rgba(0,240,200,.025);border:1px solid rgba(0,240,200,.12);border-radius:12px;padding:15px 16px;cursor:pointer;transition:transform .25s ease,border-color .25s ease,background .25s ease}
+.credential-button:hover,.credential-button:focus-visible{transform:translateY(-2px);border-color:rgba(0,240,200,.55);background:rgba(0,240,200,.07);outline:none}
+.credential-button>i:first-child{font-size:22px;color:#00f0c8;flex:0 0 auto}
+.credential-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:4px}
+.credential-copy strong{color:var(--text)}
+.credential-copy>span{font-size:.84rem;color:var(--muted)}
+.credential-copy small{font-size:.72rem;color:#00d9c5;margin-top:3px}
+.credential-arrow{color:#72a7b5;font-size:13px}
+.credential-modal .modal-content,.certificate-modal .modal-content{background:#071522;color:#e9fbff;border:1px solid rgba(0,240,200,.28);border-radius:18px;box-shadow:0 25px 90px rgba(0,0,0,.55)}
+.certificate-modal .modal-header,.certificate-modal .modal-footer{border-color:rgba(0,240,200,.16)}
+.certificate-modal .modal-title{color:#e9fbff;margin-top:6px}
+.certificate-meta{color:#8aa8b8;font-size:.88rem}
+.certificate-preview{min-height:360px;display:grid;place-items:center;background:#030a12;border:1px dashed rgba(0,240,200,.24);border-radius:12px;overflow:hidden}
+.certificate-preview iframe{width:100%;height:72vh;min-height:500px;border:0;background:white}
+.certificate-preview img{display:block;max-width:100%;max-height:72vh;object-fit:contain}
+.certificate-empty{text-align:center;max-width:480px;padding:42px 24px;color:#8aa8b8}
+.certificate-empty>i{font-size:48px;color:#00d9c5}
+.certificate-empty h3{font-size:1.15rem;color:#e9fbff;margin:16px 0 8px}
+.certificate-empty p{font-size:.9rem;line-height:1.65}
+@media(max-width:575px){.credential-button{padding:12px}.certificate-preview iframe{height:62vh;min-height:380px}}
+
+.contact-form button:disabled{opacity:.65;cursor:wait;transform:none}
+</style>
+
+<style>
+.credential-list{display:grid;gap:13px;margin-top:8px}
+.credential-item{display:flex;gap:12px;align-items:flex-start;padding:13px 14px;border:1px solid rgba(157,183,218,.13);border-radius:7px;background:rgba(255,255,255,.018)}
+.credential-item>i{color:#54e2e8;font-size:16px;margin-top:2px}
+.credential-item div{display:flex;flex-direction:column;gap:3px}
+.credential-item strong{font-size:11px;color:#edf4ff}
+.credential-item span{font-size:10px;color:#9aaac1}
+</style>
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span class="brand-mark">SS</span><span>SAI SANGEETH<span class="brand-dot">.</span></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#learning">Learning</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-nav" href="#contact">Let's connect <i class="bi bi-arrow-up-right"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section section-pad">
+      <canvas id="networkCanvas" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span class="pulse-dot"></span> IT INFRASTRUCTURE · SYSTEMS · SECURITY</div>
+            <p class="hero-kicker">Hello, I'm</p>
+            <h1>Sai Sangeeth <span class="gradient-text">V.</span></h1>
+            <h2 class="hero-role">Junior System Engineer <span class="role-divider">/</span><br class="d-none d-md-block"> Cybersecurity &amp; Network Security</h2>
+            <p class="hero-copy">I am a Junior System Engineer focused on cybersecurity and networking. My work spans system and network administration, firewall support, SIEM monitoring, infrastructure troubleshooting and security-focused operations. I am building deeper capability in vulnerability assessment, penetration testing fundamentals and defensive security.</p>
+            <div class="d-flex flex-wrap gap-3 hero-actions">
+              <a class="btn btn-primary-glow" href="#contact">Contact me <i class="bi bi-arrow-up-right"></i></a>
+              <a class="btn btn-outline-glow" href="assets/Sai-Sangeeth-Resume.pdf" download="Sai-Sangeeth-Resume.pdf">Download resume <i class="bi bi-download"></i></a>
+            </div>
+            <div class="hero-meta">
+              <span><i class="bi bi-geo-alt"></i> Kerala, India</span>
+              <span><i class="bi bi-terminal"></i> Infrastructure & Security</span>
+              <span><i class="bi bi-mortarboard"></i> BCA · IGNOU</span>
+            </div>
+          </div>
+          <div class="col-lg-5 hero-visual-column">
+            <div class="security-orb" aria-label="Animated 3D cybersecurity network illustration" role="img">
+              <div class="orb-glow"></div>
+              <div class="cyber-cube cube-one"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="cyber-cube cube-two"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="cyber-cube cube-three"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="orb-ring ring-a"></div>
+              <div class="orb-ring ring-b"></div>
+              <div class="orb-ring ring-c"></div>
+              <div class="orb-core"><i class="bi bi-shield-lock-fill"></i><span>SECURE</span></div>
+              <span class="orb-node node-a"></span><span class="orb-node node-b"></span><span class="orb-node node-c"></span>
+              <span class="orb-label label-a">FIREWALL</span><span class="orb-label label-b">SIEM</span>
+              <span class="orb-label label-c">NETWORK</span>
+            </div>
+            <div class="terminal-card">
+              <div class="terminal-top"><div class="terminal-dots"><i></i><i></i><i></i></div><span>ops@portfolio: ~</span><i class="bi bi-three-dots"></i></div>
+              <div class="terminal-body">
+                <div class="terminal-line"><span class="prompt">sai@infra</span>:<span class="path">~</span>$ whoami</div>
+                <div class="terminal-output">Junior System Engineer</div>
+                <div class="terminal-line"><span class="prompt">sai@infra</span>:<span class="path">~</span>$ focus --areas</div>
+                <div class="terminal-output tags-output"><span>Linux</span><span>Windows</span><span>Networking</span><span>Security</span></div>
+                <div class="terminal-line"><span class="prompt">sai@infra</span>:<span class="path">~</span>$ systemctl status career</div>
+                <div class="service-status"><span class="status-dot"></span> Active: continuously_learning</div>
+                <div class="terminal-line terminal-last"><span class="prompt">sai@infra</span>:<span class="path">~</span>$ <span class="cursor"></span></div>
+              </div>
+              <div class="terminal-footer"><span><i class="bi bi-shield-check"></i> Reliable systems. Secure operations.</span><span>UTF-8</span></div>
+            </div>
+            <div class="floating-chip chip-one"><i class="bi bi-hdd-network"></i> Infrastructure</div>
+            <div class="floating-chip chip-two"><i class="bi bi-shield-lock"></i> Security operations</div>
+          </div>
+        </div>
+        <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad section-border">
+      <div class="container">
+        <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>Building and supporting<br><span class="gradient-text">the systems behind business.</span></h2></div>
+        <div class="row gy-4">
+          <div class="col-lg-7">
+            <p class="lead-copy">I’m an Junior System Engineer focused on system administration, cybersecurity, network operations and security monitoring.</p>
+            <p class="body-copy">My professional work includes Linux and Windows administration, firewall policy support, Active Directory, patch management, infrastructure monitoring and troubleshooting across connected environments. Alongside these responsibilities, I have internship exposure to vulnerability assessment and penetration-testing workflows. I enjoy investigating issues methodically, understanding root causes and documenting changes clearly.</p>
+            <p class="body-copy">I hold a Bachelor of Computer Applications (BCA) from Indira Gandhi National Open University (IGNOU), and continue to develop my skills across infrastructure, networking and cybersecurity.</p>
+          </div>
+          <div class="col-lg-5">
+            <div class="about-panel">
+              <div class="about-row"><span>EDUCATION</span><strong>Bachelor of Computer Applications</strong><small>IGNOU · Regional Centre Vadakara</small></div>
+              <div class="about-row"><span>CORE INTERESTS</span><strong>Cybersecurity · Network Defense · Infrastructure Security</strong></div>
+              <div class="about-row"><span>WORKING APPROACH</span><strong>Structured troubleshooting & documentation</strong></div>
+              <div class="about-row"><span>CAREER DIRECTION</span><strong>System Administration / IT Infrastructure</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad section-border">
+      <div class="container">
+        <div class="section-heading"><span class="section-index">02 / TECHNICAL TOOLKIT</span><h2>Tools I use to keep<br><span class="gradient-text">infrastructure running.</span></h2><p class="section-subtitle">A practical toolkit built around administration, connectivity, monitoring and security operations.</p></div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-ubuntu"></i></div><h3>Linux Administration</h3><p>Rocky Linux · RHEL · Ubuntu · systemd · DNF/YUM · storage & LVM · logs · services · permissions · SSH</p></article></div>
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-windows"></i></div><h3>Windows Administration</h3><p>Windows Server · Windows 10/11 · Active Directory · Group Policy · user administration · WSUS</p></article></div>
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-diagram-3"></i></div><h3>Networking</h3><p>TCP/IP · DNS · DHCP · VLAN concepts · ISP connectivity · MPLS · VPN · routing & connectivity troubleshooting</p></article></div>
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-shield-lock"></i></div><h3>Firewall & Security</h3><p>FortiGate · Sophos XG/XGS · firewall policies · NAT concepts · DDNS · bridge mode · access control</p></article></div>
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-activity"></i></div><h3>SIEM & Security Monitoring</h3><p>Wazuh · OpenSearch · security alerts · agent monitoring · log analysis · Nessus · Nmap · Burp Suite · OWASP ZAP</p></article></div>
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-display"></i></div><h3>Virtualization</h3><p>Virtual machine administration · VirtualBox · VM resource allocation · snapshots · guest OS troubleshooting</p></article></div>
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-graph-up-arrow"></i></div><h3>Monitoring & Infrastructure</h3><p>Zabbix · alert configuration · service health · network availability · WSUS synchronization & patch management</p></article></div>
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-code-slash"></i></div><h3>Scripting & Automation</h3><p>PowerShell fundamentals · Python in application development · administrative script use and adaptation</p></article></div>
+          <div class="col-md-6 col-lg-4"><article class="skill-card"><div class="skill-icon"><i class="bi bi-database"></i></div><h3>Database & Web Technologies</h3><p>MySQL · Django · Python · HTML5 · CSS3 · Bootstrap · JavaScript</p></article></div>
+        </div>
+        <p class="micro-note"><i class="bi bi-info-circle"></i> </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section-pad section-border">
+      <div class="container">
+        <div class="section-heading"><span class="section-index">03 / EXPERIENCE</span><h2>Practical operations.<br><span class="gradient-text">Real infrastructure challenges.</span></h2><p class="section-subtitle">Current Junior System Engineer role at Banihal Technologies LLP, including infrastructure, endpoint protection, Microsoft 365 and AWS-related exposure, alongside earlier cybersecurity internship experience.</p></div>
+        <div class="experience-layout">
+          <div class="experience-marker"><span class="marker-line"></span><span class="marker-dot"></span></div>
+          <div class="experience-content">
+            <div class="experience-head"><div><span class="tag-label">PROFESSIONAL EXPERIENCE</span><h3>Junior System Engineer</h3><p>Banihal Technologies LLP <span>·</span> November 2025 – Present</p></div><span class="experience-type">IT OPERATIONS</span></div>
+            <div class="row g-3 mt-2">
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-server"></i><div><h4>Systems administration</h4><p>Support Linux and Windows systems, investigate service issues, manage system resources and perform routine maintenance and troubleshooting.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-shield-check"></i><div><h4>Security operations</h4><p>Work with Wazuh SIEM, security monitoring and endpoint agents; review service health and support vulnerability assessment activities.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-router"></i><div><h4>Network & firewall support</h4><p>Configure and troubleshoot firewall access, ISP connectivity, VPN-related issues, DDNS and intermittent network or MPLS connectivity.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-pc-display"></i><div><h4>Endpoint & directory services</h4><p>Support Active Directory, Group Policy, Windows endpoint configuration, software deployment and patch-management workflows.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-speedometer2"></i><div><h4>Monitoring & incident handling</h4><p>Use Zabbix and logs to investigate availability and performance issues, configure alerts, record incidents and escalate where required.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-hdd-stack"></i><div><h4>Storage & maintenance</h4><p>Investigate disk-capacity issues, manage log rotation and retention considerations, and support infrastructure maintenance activities.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-shield-check"></i><div><h4>Endpoint protection</h4><p>Support endpoint security administration and troubleshooting involving Sophos antivirus and CrowdStrike endpoint protection.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-microsoft"></i><div><h4>Microsoft 365 administration</h4><p>Support Microsoft 365 administration tasks, user and service configuration, and day-to-day productivity platform troubleshooting.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-cloud"></i><div><h4>AWS cloud fundamentals</h4><p>Include AWS-related infrastructure exposure and administration tasks where applicable; add specific services and responsibilities as your hands-on scope grows.</p></div></div></div>
+            </div>
+            <div class="experience-callout"><i class="bi bi-journal-check"></i><span>Operational focus: safe change practices, evidence-based troubleshooting, service continuity and clear technical documentation.</span></div>
+          </div>
+        </div>
+
+          <div class="experience-content internship-entry">
+            <div class="experience-head"><div><span class="tag-label">CYBERSECURITY INTERNSHIP</span><h3>Cybersecurity Intern</h3><p>Infotact Solutions <span>·</span> May 2025 – July 2025 (3 months)</p></div><span class="experience-type">INTERNSHIP</span></div>
+            <p class="body-copy mt-3">Internship exposure focused on vulnerability assessment and penetration-testing fundamentals in Linux and Windows virtualized environments. Worked with security and network assessment tools to understand services, identify potential weaknesses and communicate findings.</p>
+            <div class="row g-3 mt-1">
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-search"></i><div><h4>Vulnerability assessment</h4><p>Practised network and service discovery and vulnerability assessment workflows using Nmap.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-globe2"></i><div><h4>Web security testing</h4><p>Gained exposure to web application testing concepts and request analysis using Burp Suite.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-activity"></i><div><h4>Network traffic analysis</h4><p>Used Wireshark to inspect network traffic and build understanding of network communication and troubleshooting.</p></div></div></div>
+              <div class="col-md-6"><div class="responsibility"><i class="bi bi-file-earmark-text"></i><div><h4>Findings & remediation</h4><p>Prepared technical findings and remediation-oriented notes as part of the assessment workflow.</p></div></div></div>
+            </div>
+            <div class="tech-stack"><span>Linux</span><span>Windows</span><span>Nmap</span><span>Burp Suite</span><span>Wireshark</span></div>
+            
+          </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad section-border">
+      <div class="container">
+        <div class="section-heading"><span class="section-index">04 / SELECTED WORK</span><h2>Projects &<br><span class="gradient-text">infrastructure implementations.</span></h2><p class="section-subtitle">Academic development work is separated from professional infrastructure implementations.</p></div>
+        <div class="project-group-title"><span>01</span><h3>Academic project</h3><div></div></div>
+        <article class="project-card featured-project">
+          <div class="project-topline"><span class="project-type">ACADEMIC · WEB APPLICATION</span><span class="project-number">PROJECT / 001</span></div>
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-7"><h3>MaterialHub</h3><p class="project-summary">A Django-based web application developed as an academic project to support a structured material and stakeholder workflow.</p>
+              <div class="project-detail-grid"><div><b>Problem</b><p>Organize interactions and operational workflows across administrators, dealers, clients and drivers.</p></div><div><b>Implementation</b><p>Developed a web application with role-oriented modules and a relational database-backed architecture.</p></div><div><b>My contribution</b><p>Academic project development, application structure and implementation using the listed web technologies.</p></div><div><b>Outcome</b><p>Practical experience connecting backend application logic, database operations and frontend interfaces.</p></div></div>
+              <div class="tech-stack"><span>Django</span><span>Python</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span></div>
+            </div>
+            <div class="col-lg-5"><div class="project-visual"><div class="visual-window"><div class="visual-bar"><i></i><i></i><i></i><span>materialhub / dashboard</span></div><div class="visual-content"><div class="visual-sidebar"><b>MH</b><i></i><i></i><i></i><i></i></div><div class="visual-main"><div class="visual-title"></div><div class="visual-cards"><i></i><i></i><i></i></div><div class="visual-table"><i></i><i></i><i></i><i></i></div></div></div></div></div></div>
+          </div>
+        </article>
+        <div class="project-group-title mt-5"><span>02</span><h3>Professional infrastructure work</h3><div></div></div>
+        <div class="row g-3">
+          <div class="col-md-6"><article class="mini-project"><div class="mini-project-icon"><i class="bi bi-shield-lock"></i></div><span class="project-type">SIEM / SECURITY OPERATIONS</span><h3>Wazuh SIEM Administration</h3><p>Administration and troubleshooting across Wazuh Manager, Indexer and Dashboard components, including upgrade planning, agent health, alert monitoring and OpenSearch service diagnostics.</p><div class="tech-stack"><span>Wazuh</span><span>OpenSearch</span><span>Rocky Linux</span><span>Log analysis</span></div><small>Workplace implementation · operational experience</small></article></div>
+          <div class="col-md-6"><article class="mini-project"><div class="mini-project-icon"><i class="bi bi-graph-up"></i></div><span class="project-type">MONITORING</span><h3>Zabbix Infrastructure Monitoring</h3><p>Infrastructure and network monitoring, trigger configuration, alert delivery to collaboration channels, and investigation of availability and packet-loss events.</p><div class="tech-stack"><span>Zabbix</span><span>Linux</span><span>Network monitoring</span></div><small>Workplace implementation · operational experience</small></article></div>
+          <div class="col-md-6"><article class="mini-project"><div class="mini-project-icon"><i class="bi bi-diagram-3"></i></div><span class="project-type">IDENTITY / ENDPOINTS</span><h3>Windows Server & Active Directory</h3><p>Support for directory services, Group Policy, endpoint configuration, user administration and PowerShell-based inventory or system-audit tasks.</p><div class="tech-stack"><span>Windows Server</span><span>AD</span><span>GPO</span><span>PowerShell</span></div><small>Workplace implementation · operational experience</small></article></div>
+          <div class="col-md-6"><article class="mini-project"><div class="mini-project-icon"><i class="bi bi-router"></i></div><span class="project-type">NETWORK / SECURITY</span><h3>FortiGate Firewall & Connectivity</h3><p>Firewall policy support, ISP interface troubleshooting, bridge-mode and DHCP investigations, DDNS diagnosis, and VPN/network connectivity support.</p><div class="tech-stack"><span>FortiGate</span><span>Sophos</span><span>VPN</span><span>DDNS</span></div><small>Workplace implementation · operational experience</small></article></div>
+          <div class="col-md-6"><article class="mini-project"><div class="mini-project-icon"><i class="bi bi-arrow-repeat"></i></div><span class="project-type">PATCH MANAGEMENT</span><h3>WSUS & Patch Management</h3><p>WSUS storage troubleshooting, content capacity management, synchronization checks and Windows update approval or deployment support.</p><div class="tech-stack"><span>WSUS</span><span>Windows Server</span><span>Patch management</span></div><small>Workplace implementation · operational experience</small></article></div>
+          <div class="col-md-6"><article class="mini-project"><div class="mini-project-icon"><i class="bi bi-hdd"></i></div><span class="project-type">LINUX / OPERATIONS</span><h3>Linux Storage & Log Retention</h3><p>Investigated disk exhaustion on a SIEM host, reviewed oversized log files and log-rotation configuration, and worked through safe cleanup and retention considerations.</p><div class="tech-stack"><span>Rocky Linux</span><span>rsyslog</span><span>logrotate</span><span>XFS</span></div><small>Workplace implementation · operational experience</small></article></div><div class="col-md-6"><article class="mini-project"><div class="mini-project-icon"><i class="bi bi-bug"></i></div><span class="project-type">CYBERSECURITY / VULNERABILITY ASSESSMENT</span><h3>Vulnerability Assessment &amp; Security Testing</h3><p>Building practical familiarity with vulnerability assessment and web/network security testing workflows, including scan interpretation, service discovery and identifying potential weaknesses in authorized lab environments.</p><div class="tech-stack"><span>Nessus</span><span>Nmap</span><span>Burp Suite</span><span>OWASP ZAP</span></div><small>Technical learning focus · authorized testing only</small></article></div>
+        </div>
+        <p class="micro-note mt-3"><i class="bi bi-info-circle"></i> Workplace project cards describe operational responsibilities and troubleshooting exposure; they do not imply sole ownership of enterprise deployments.</p>
+      </div>
+    </section>
+
+    <section id="learning" class="section-pad section-border">
+      <div class="container">
+        <div class="section-heading"><span class="section-index">05 / CONTINUOUS DEVELOPMENT</span><h2>Always learning.<br><span class="gradient-text">Always improving.</span></h2></div>
+        <div class="row g-4">
+          <div class="col-lg-6"><div class="learning-panel"><div class="panel-heading"><i class="bi bi-award"></i><h3>Certifications & credentials</h3></div><div class="credential-list">
+                <button type="button" class="credential-item credential-button" data-cert-title="Diploma in Cyber Security" data-cert-org="Blitz Academy Pvt Ltd" data-cert-date="January 2025 – September 2025" data-cert-file="assets/certificates/diploma-cyber-security.pdf"><i class="bi bi-patch-check"></i><span class="credential-copy"><strong>Diploma in Cyber Security</strong><span>Blitz Academy Pvt Ltd · January 2025 – September 2025</span><small>Click to view certificate <i class="bi bi-arrow-up-right"></i></small></span><i class="bi bi-chevron-right credential-arrow"></i></button>
+                <button type="button" class="credential-item credential-button" data-cert-title="TÜV SÜD Certification in Ethical Hacking" data-cert-org="TÜV SÜD South Asia" data-cert-date="December 2025" data-cert-file="assets/certificates/tuv-sud-ethical-hacking.pdf"><i class="bi bi-patch-check"></i><span class="credential-copy"><strong>TÜV SÜD Certification in Ethical Hacking</strong><span>TÜV SÜD South Asia · December 2025</span><small>Click to view certificate <i class="bi bi-arrow-up-right"></i></small></span><i class="bi bi-chevron-right credential-arrow"></i></button>
+                <button type="button" class="credential-item credential-button" data-cert-title="Introduction to Networking" data-cert-org="Cisco Networking Academy" data-cert-date="Date not specified" data-cert-file="assets/certificates/cisco-introduction-to-networking.pdf"><i class="bi bi-patch-check"></i><span class="credential-copy"><strong>Introduction to Networking</strong><span>Cisco Networking Academy</span><small>Click to view certificate <i class="bi bi-arrow-up-right"></i></small></span><i class="bi bi-chevron-right credential-arrow"></i></button>
+              </div></div></div>
+          <div class="col-lg-6"><div class="learning-panel"><div class="panel-heading"><i class="bi bi-lightbulb"></i><h3>Ongoing learning</h3></div><ul class="learning-list"><li><i class="bi bi-check2"></i> Linux server administration and troubleshooting</li><li><i class="bi bi-check2"></i> SIEM operations, log analysis and security monitoring</li><li><i class="bi bi-check2"></i> Network security, firewall policies and VPN connectivity</li><li><i class="bi bi-check2"></i> Vulnerability assessment tools and security fundamentals</li><li><i class="bi bi-check2"></i> PowerShell and Python for practical administration and automation</li></ul></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="knowledge" class="section-pad section-border">
+      <div class="container">
+        <div class="section-heading"><span class="section-index">06 / TECHNICAL NOTES</span><h2>Curiosity that goes<br><span class="gradient-text">beyond the dashboard.</span></h2><p class="section-subtitle">Areas I work with and continue to deepen through hands-on troubleshooting.</p></div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3"><div class="knowledge-card"><i class="bi bi-terminal"></i><h3>Linux operations</h3><p>Service management, disk and LVM checks, permissions, package management, logs, SSH and system diagnostics.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="knowledge-card"><i class="bi bi-router"></i><h3>Network troubleshooting</h3><p>Ping, traceroute, DNS checks, interface status, routing, packet loss and ISP handoff investigations.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="knowledge-card"><i class="bi bi-shield"></i><h3>Firewall administration</h3><p>Policy review, interface configuration, NAT concepts, access rules and connectivity verification.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="knowledge-card"><i class="bi bi-clipboard-data"></i><h3>Security monitoring</h3><p>Agent status, alert review, log retention, vulnerability scanning and monitoring-system health.</p></div></div>
+        </div>
+        <div class="command-strip"><span class="command-label">TROUBLESHOOTING MINDSET</span><code>observe <b>→</b> isolate <b>→</b> validate <b>→</b> document</code></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad section-border">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="row gy-5">
+            <div class="col-lg-6"><span class="section-index">07 / CONTACT</span><h2>Let's talk about<br><span class="gradient-text">building reliable IT.</span></h2><p class="body-copy">Interested in opportunities across Junior System Engineering, Network Security, Cybersecurity Operations, Firewall Administration and SIEM Operations.</p>
+              <div class="contact-links">
+                <a href="mailto:saisangeethv@gmail.com"><i class="bi bi-envelope"></i><span><small>EMAIL</small>saisangeethv@gmail.com</span><i class="bi bi-arrow-up-right ms-auto"></i></a>
+                <a href="https://www.linkedin.com/in/sai-sangeeth-v/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i><span><small>LINKEDIN</small>linkedin.com/in/sai-sangeeth-v</span><i class="bi bi-arrow-up-right ms-auto"></i></a>
+                <a href="https://github.com/sai998" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i><span><small>GITHUB</small>github.com/sai998</span><i class="bi bi-arrow-up-right ms-auto"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form id="contactForm" class="contact-form">
+                <div class="form-top"><span> SEND A MESSAGE</span><i class="bi bi-send"></i></div>
+                <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Name" autocomplete="name" required>
+                <label for="email">Your email</label><input id="email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required>
+                <label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required>
+                <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                <button id="contactSubmit" class="btn btn-primary-glow w-100" type="submit">Send Message <i class="bi bi-send"></i></button>
+                <p class="form-note" id="formNote" role="status" aria-live="polite">Send a message directly from this website. Your email address is used only so I can reply.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"><a class="navbar-brand" href="#home"><span class="brand-mark">SS</span><span>SAI SANGEETH<span class="brand-dot">.</span></span></a><p>Designed with care · Built for the next opportunity.</p><a href="#home" class="back-top">BACK TO TOP <i class="bi bi-arrow-up"></i></a></div><div class="container copyright">© <span id="year"></span> Sai Sangeeth V. All rights reserved.</div></footer>
+
+
+  <div class="modal fade certificate-modal" id="certificateModal" tabindex="-1" aria-labelledby="certificateModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div><span class="section-index">CREDENTIAL PREVIEW</span><h2 class="modal-title fs-5" id="certificateModalTitle">Certificate</h2><p class="certificate-meta mb-0" id="certificateModalMeta"></p></div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="certificatePreview" class="certificate-preview">
+            <div class="certificate-empty"><i class="bi bi-file-earmark-check"></i><h3>Certificate file not added yet</h3><p>Add the matching PDF or image inside <code>assets/certificates/</code>, then refresh the page to preview it here.</p></div>
+          </div>
+        </div>
+        <div class="modal-footer"><a id="certificateOpenLink" class="btn btn-outline-glow d-none" href="#" target="_blank" rel="noopener">Open in new tab <i class="bi bi-box-arrow-up-right"></i></a><a id="certificateDownloadLink" class="btn btn-primary-glow d-none" href="#" download>Download certificate <i class="bi bi-download"></i></a><button type="button" class="btn btn-outline-glow" data-bs-dismiss="modal">Close</button></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  // EMAILJS CONTACT FORM
+  // Add your EmailJS Public Key, Service ID and Template ID here after creating your free account.
+  const EMAILJS_PUBLIC_KEY = "G48Xp8ZmNhSgGSWTS";
+  const EMAILJS_SERVICE_ID = "service_opkyb7t";
+  const EMAILJS_TEMPLATE_ID = "template_582iw9g";
+
+  const contactForm = document.getElementById("contactForm");
+  if (contactForm) {
+    const submitButton = document.getElementById("contactSubmit");
+    const formNote = document.getElementById("formNote");
+    const setFormMessage = (message, state) => {
+      formNote.textContent = message;
+      formNote.dataset.state = state || "";
+      formNote.style.color = state === "success" ? "#00f0c8" : state === "error" ? "#ff8d8d" : "";
+    };
+
+    contactForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      if ([EMAILJS_PUBLIC_KEY, EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID].some(value => value.startsWith("YOUR_"))) {
+        setFormMessage("Contact form setup is not complete yet. The site owner must add the EmailJS IDs in the page script.", "error");
+        return;
+      }
+
+      if (!window.emailjs) {
+        setFormMessage("The email service could not load. Please check your internet connection and try again.", "error");
+        return;
+      }
+
+      submitButton.disabled = true;
+      submitButton.innerHTML = 'Sending... <i class="bi bi-arrow-repeat"></i>';
+      setFormMessage("Sending your message securely...", "pending");
+
+      const templateParams = {
+        from_name: document.getElementById("name").value.trim(),
+        reply_to: document.getElementById("email").value.trim(),
+        subject: document.getElementById("subject").value.trim(),
+        message: document.getElementById("message").value.trim(),
+        to_email: "saisangeethv@gmail.com"
+      };
+
+      try {
+        await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams, {
+          publicKey: EMAILJS_PUBLIC_KEY
+        });
+        contactForm.reset();
+        setFormMessage("Message sent successfully! Thank you for contacting me. I'll get back to you soon.", "success");
+      } catch (error) {
+        console.error("EmailJS send failed:", error);
+        setFormMessage("Sorry, your message could not be sent. Please try again later or email saisangeethv@gmail.com directly.", "error");
+      } finally {
+        submitButton.disabled = false;
+        submitButton.innerHTML = 'Send Message <i class="bi bi-send"></i>';
+      }
+    });
+  }
+
+
+  // Certificate preview: PDFs and images are loaded from assets/certificates/.
+  const certificateModalEl = document.getElementById("certificateModal");
+  if (certificateModalEl && window.bootstrap) {
+    const certificateModal = new bootstrap.Modal(certificateModalEl);
+    const preview = document.getElementById("certificatePreview");
+    const modalTitle = document.getElementById("certificateModalTitle");
+    const modalMeta = document.getElementById("certificateModalMeta");
+    const openLink = document.getElementById("certificateOpenLink");
+    const downloadLink = document.getElementById("certificateDownloadLink");
+
+    document.querySelectorAll(".credential-button").forEach((button) => {
+      button.addEventListener("click", () => {
+        const title = button.dataset.certTitle || "Certificate";
+        const org = button.dataset.certOrg || "";
+        const date = button.dataset.certDate || "";
+        const file = button.dataset.certFile || "";
+        modalTitle.textContent = title;
+        modalMeta.textContent = [org, date].filter(Boolean).join(" · ");
+        preview.innerHTML = "";
+        const ext = file.split(".").pop().toLowerCase();
+        if (ext === "pdf") {
+          const frame = document.createElement("iframe");
+          frame.title = title + " certificate preview";
+          frame.src = file;
+          preview.appendChild(frame);
+        } else if (["png","jpg","jpeg","webp"].includes(ext)) {
+          const image = document.createElement("img");
+          image.alt = title + " certificate";
+          image.src = file;
+          preview.appendChild(image);
+        } else {
+          preview.innerHTML = '<div class="certificate-empty"><i class="bi bi-file-earmark-check"></i><h3>Certificate file not added yet</h3><p>Add the matching PDF or image inside <code>assets/certificates/</code>, then refresh the page to preview it here.</p></div>';
+        }
+        openLink.href = file;
+        downloadLink.href = file;
+        openLink.classList.remove("d-none");
+        downloadLink.classList.remove("d-none");
+        certificateModal.show();
+      });
+    });
+  }
+
+  // Animated network topology background (respects reduced-motion settings).
+  const canvas = document.getElementById("networkCanvas");
+  if (canvas && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const ctx = canvas.getContext("2d");
+    let points = [], width = 0, height = 0, raf = 0;
+    const resizeNetwork = () => {
+      const rect = canvas.getBoundingClientRect();
+      const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+      width = rect.width; height = rect.height;
+      canvas.width = Math.round(width * dpr); canvas.height = Math.round(height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      const count = Math.max(24, Math.min(58, Math.floor(width / 22)));
+      points = Array.from({length:count}, () => ({
+        x:Math.random()*width, y:Math.random()*height,
+        vx:(Math.random()-.5)*.22, vy:(Math.random()-.5)*.22
+      }));
+    };
+    const drawNetwork = () => {
+      ctx.clearRect(0,0,width,height);
+      for (let i=0;i<points.length;i++) {
+        const p=points[i]; p.x+=p.vx; p.y+=p.vy;
+        if(p.x<0||p.x>width)p.vx*=-1;
+        if(p.y<0||p.y>height)p.vy*=-1;
+        for(let j=i+1;j<points.length;j++){
+          const q=points[j], dx=p.x-q.x, dy=p.y-q.y, d=Math.hypot(dx,dy);
+          if(d<125){ctx.strokeStyle=`rgba(0,220,205,${(1-d/125)*.22})`;ctx.lineWidth=.7;ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(q.x,q.y);ctx.stroke();}
+        }
+        ctx.fillStyle="rgba(0,240,210,.65)";ctx.beginPath();ctx.arc(p.x,p.y,1.35,0,Math.PI*2);ctx.fill();
+      }
+      raf=requestAnimationFrame(drawNetwork);
+    };
+    resizeNetwork(); drawNetwork();
+    window.addEventListener("resize", () => { cancelAnimationFrame(raf); resizeNetwork(); drawNetwork(); }, {passive:true});
+  }
+
+  const year = document.getElementById("year");
+  if (year) year.textContent = new Date().getFullYear();
+
+  // Close the mobile navigation after selecting a section.
+  document.querySelectorAll("#navContent .nav-link, #navContent .btn-nav").forEach(link => {
+    link.addEventListener("click", () => {
+      const menu = document.getElementById("navContent");
+      if (menu && menu.classList.contains("show") && window.bootstrap) {
+        bootstrap.Collapse.getOrCreateInstance(menu).hide();
+      }
+    });
+  });
+
+  // Contact form is handled by the EmailJS integration above.
+
+  // Subtle reveal-on-scroll animation.
+  const revealTargets = document.querySelectorAll(".skill-card,.mini-project,.knowledge-card,.responsibility,.about-panel,.learning-panel,.project-card");
+  if ("IntersectionObserver" in window) {
+    revealTargets.forEach(el => el.classList.add("reveal"));
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    revealTargets.forEach(el => observer.observe(el));
+  }
+});
+</script>
+</body>
+</html>
